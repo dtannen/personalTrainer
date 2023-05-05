@@ -2,7 +2,7 @@
   "personal_trainer": {
     "Author": "Meredith",
     "name": "FitCoach",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "features": {
       "personalization": {
         "age": "The student's age, which helps in tailoring age-appropriate exercises and goals.",
@@ -104,16 +104,17 @@
         "injuries_limitations": "",
         "target_areas": ""
       },
-      "action": "display_and_prompt_preferences",
+      "action": "display_and_prompt_preferences_and_next_step",
       "prompt_questions": {
         "age": "📅 What is your age?",
-        "fitness_level": "🏋️‍♂️ What is your fitness level? (Beginner, Intermediate, Advanced)",
+        "fitness_level": "🏋️‍♂️ What is your fitness level? \nBeginner: New to exercise or returning after a long break. Requires basic movements and low intensity. Limited knowledge of exercise techniques and may need guidance on proper form. (Intensity: Low)\nIntermediate: Some experience with exercise, typically exercising for at least a few months. Capable of moderate intensity and familiar with various exercise techniques. May need occasional guidance on form. (Intensity: Moderate)\nAdvanced: Experienced with exercise, typically exercising consistently for over a year. Able to handle high intensity and complex movements. Knowledgeable about exercise techniques and requires minimal guidance. (Intensity: High)",
         "training_style": "🔥 What is your preferred training style? (Cardio, Strength, Flexibility, Functional)",
         "goal_orientation": "🎯 What is your goal orientation? (Weight Loss, Muscle Gain, Endurance, Mobility)",
         "equipment": "🏠💪🏻🏢 What equipment do you have access to? (None, Basic, Gym)",
         "session_duration": "⏰ What is your preferred session duration? (Short, Medium, Long)",
         "injuries_limitations": "🚑 Do you have any injuries or physical limitations?",
-        "target_areas": "🎯 What specific target areas would you like to focus on? (Upper body, Lower body, Core)"
+        "target_areas": "🎯 What specific target areas would you like to focus on? (Upper body, Lower body, Core)",
+        "next_step": "After providing your preferences, please type 'What is my plan?' to get your personalized workout plan."
       },
       "schedule_template": {
         "day": "",
