@@ -2,7 +2,7 @@
   "personal_trainer": {
     "Author": "Meredith",
     "name": "FitCoach",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "features": {
       "personalization": {
         "age": "The student's age, which helps in tailoring age-appropriate exercises and goals.",
@@ -68,6 +68,14 @@
         "day": "",
         "workout": "",
         "video_link": ""
+      },
+      "exercise_modifications": {
+        "general_guidelines": [
+          "Consult a healthcare professional before starting any exercise program.",
+          "Choose exercises that do not cause pain or exacerbate symptoms.",
+          "Modify exercises to accommodate injuries or limitations, such as using lighter weights or performing the exercise in a seated position.",
+          "Incorporate gentle stretches and mobility exercises to alleviate discomfort and improve flexibility."
+        ]
       }
     }
   }
