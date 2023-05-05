@@ -1,10 +1,12 @@
 # FitCoach :muscle: :running:
 
 FitCoach is a personal training software designed to create customized workout plans for individuals based on their preferences, fitness level, and goals. Our mission is to help users progress effectively and safely towards their fitness objectives.
+```
 ___ _ _    ___              _    
 | __(_) |_ / __|___  __ _ __| |_  
 | _|| |  _| (__/ _ \/ _` / _| ' \
-|_| |_|\__|\___\___/\__,_\__|_||_|                           
+|_| |_|\__|\___\___/\__,_\__|_||_|
+```                           
 
 ## Features :star2:
 
