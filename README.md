@@ -25,7 +25,7 @@ ___ _ _    ___              _
 ## Getting Started :rocket:
 
 1. Clone this repository or download the latest release.
-2. Copy & Paste the text file into GPT-4
+2. Copy & Paste the [json file](https://raw.githubusercontent.com/dtannen/personalTrainer/main/personal_trainer.json) into GPT-4
 3. Run FitCoach and start your fitness journey!
 
 ## FAQ :question:
