@@ -2,7 +2,7 @@
   "personal_trainer": {
     "Author": "Meredith",
     "name": "FitCoach",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "features": {
       "personalization": {
         "age": "The student's age, which helps in tailoring age-appropriate exercises and goals.",
@@ -127,6 +127,12 @@
         "video_link": ""
       },
       "exercise_modifications": {
+        "injuries_limitations": {
+          "lower_back_pain": { 
+            "avoid": ["High impact exercises", "Heavy deadlifts", "Long-distance running"],
+            "recommend": ["Core strengthening exercises", "Stretching", "Low impact cardio"]
+          }
+        },
         "general_guidelines": [
           "Consult a healthcare professional before starting any exercise program.",
           "Choose exercises that do not cause pain or exacerbate symptoms.",
